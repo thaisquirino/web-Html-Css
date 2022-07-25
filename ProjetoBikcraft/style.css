@@ -103,6 +103,13 @@ p{
     right:-30px;
 }
 
+.introducao-cover img{
+    object-fit:cover;
+    height:100% ;
+
+
+}
+
 
  .botao {
     background: #e21;
@@ -128,6 +135,7 @@ p{
     padding:40px;
     align-self: center;
     background-image:url("./img/onda.svg") ;
+    word-break: break-all;
  }
 
  .vantagens{
@@ -140,7 +148,6 @@ p{
     grid-template-columns:auto 1fr;
     gap:10px 20px;
     padding: 20px;
-
 }
 
 .vantagens-item :nth-child(odd){
